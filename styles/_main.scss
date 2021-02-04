@@ -1,0 +1,95 @@
+
+.header {
+    margin: 0 auto;
+    width: 1440px;
+    height: 780px;
+    background-color: #02160B;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/Rectangle.png);
+}
+
+.wrapper-content {
+    max-width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.content-nav {
+    padding-top: 20px;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+
+    &__logo {
+        width: 239px;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+
+        &__link {
+            text-decoration: none;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        &__name {
+            @include logo;
+            padding-left: 8px;
+        }
+    }
+
+    &__menu {
+        width: 515px;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+
+        div {
+            width: 120px;
+            height: 50px;
+            text-align: center;
+
+            a {
+                @include menu-UI;
+                text-decoration: none;
+            }
+        }
+    }
+
+}
+
+.content-nav-txt {
+    margin-top: 90px;
+    width: 274px;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.nav-txt__title {
+    @include h1;
+}
+
+.nav-txt__content {
+    @include regular;
+    
+}
+
+.nav-txt__btn {
+    margin-top: 32px;
+    width: 77px;
+    padding: 16px 42px 17px;
+    @include regular-UI;
+    background: #CD6326;
+    border-radius: 5px;
+    text-decoration: none;
+    
+}
+

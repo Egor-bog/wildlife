@@ -1,0 +1,101 @@
+/*
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+$orange-main: #cd6326;
+$orange-light: #e39128;
+$orange-dark: #8f5613;
+
+@mixin h1 {
+ 
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 72px;
+    letter-spacing: 2px;
+    color: $orange-main;
+}
+
+@mixin h2d {
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 72px;
+    color:#333333;
+}
+
+@mixin h2g {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    color: #666666;
+}
+
+@mixin h3 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 40px;
+    color: #333333;
+}
+
+@mixin h4 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 36px;
+    color: #F7F7F7;
+}
+
+@mixin logo {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 60px;
+    color: #F7F7F7;
+}
+
+@mixin menu-UI {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 60px;
+    color: #F7F7F7;
+}
+
+@mixin regular-UI {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 27px;
+    color: #F7F7F7;
+}
+
+@mixin regular {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #F7F7F7;
+}
+
+@mixin small {
+    font-family: OpenSans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 27px;
+    color: #F7F7F7;
+}

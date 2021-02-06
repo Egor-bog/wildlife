@@ -389,6 +389,14 @@ font-family: 'Roboto', sans-serif;
   color: #F7F7F7;
 }
 
+.content-nav__logo__link img {
+  padding-left: 2px;
+}
+
+.content-nav__logo__link span {
+  padding-left: 7px;
+}
+
 .content-nav__logo__link:hover {
   color: #cd6326;
   transition: 1s;

@@ -38,6 +38,13 @@
             display: flex;
             justify-content: space-between; 
             @include logo;
+
+            img {
+                padding-left: 2px;
+            }
+            span {
+                padding-left: 7px;
+            }
         }
         &__link:hover {
             color : $orange-main;

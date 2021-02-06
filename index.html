@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./reset.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
@@ -15,33 +16,30 @@
             <div class="wrapper-content">
                 <div class="content-nav">
                     <div class="content-nav__logo">
-                        <a href="" class="content-nav__logo__link">
-                            <div class="content-nav__logo__label">
+                        <a href="#" class="content-nav__logo__link">
                                 <img src="./img/Frame.svg" alt="logo" class="content-nav__logo__label__img">
-                            </div>
-                            <div class="content-nav__logo__name">
                                 <span class="content-nav__logo__label__txt">
                                     WILDLIFE
                                 </span>
-                            </div>
                         </a>
                     </div>
-                    <div class="content-nav__menu">
-                        <div class="nav__menu__blok">
-                            <a href="" class="nav__menu__blok__link">Blog</a>
-                        </div>
-                        <div class="nav__menu__blok">
-                            <a href="" class="nav__menu__blok___link">Contscts</a>
-                        </div>
-                        <div class="nav__menu__blok">
-                            <a href="" class="nav__menu__blok___link">
+                    <h1 class="visually-hidden">WILDLIFE</h1>
+                    <ul class="content-nav__menu">
+                        <li class="nav__menu__blok">
+                            <a href="#" class="nav__menu__blok__link">Blog</a>
+                        </li>
+                        <li class="nav__menu__blok">
+                            <a href="#" class="nav__menu__blok__link">Contscts</a>
+                        </li>
+                        <li class="nav__menu__blok">
+                            <a href="#" class="nav__menu__blok__link">
                                 <img src="./img/Vector (3).svg" alt="button find" class="nav__menu__blok___link__img">
                             </a>
-                        </div>
-                        <div class="nav__menu__blok">
-                            <a href="" class="nav__menu__blok___link">Sign in</a>
-                        </div>
-                    </div>
+                        </li>
+                        <li class="nav__menu__blok1 nav__menu__blok-active">
+                            <a href="#" class="nav__menu__blok__link">Sign in</a>
+                        </li>
+                    </ul>
                     
                 </div>
                 <div class="content-nav-txt">
@@ -54,6 +52,79 @@
             </div>
         </div>
     </header>
-    
+    <section class = "latest-articles">
+        <div class="wraper-LA">
+            <div class="content-tatle">
+                <h2 class="content-tatle__uptitle">Latest articles</h2>
+                <span class="content-tatle__subtitle">Breaking news from the wild</span>
+            </div>
+            <div class="content-carusel">
+                <div class="content-carusel-wrapper">
+                    <img src="./img/1-C-Vector.png" alt="cliker-right" class="cliker">
+                        <div class="wrapper-block-image">
+                            <div class="block-image block-image__1">
+                                <h4 class ="block-image__title">Deer</h4>
+                                <span class ="block-image__content">Naturalist investigation</span>
+                            </div>
+                            <div class="block-image block-image__2">
+                                <h4 class ="block-image__title">Squirrel</h4>
+                                <span class ="block-image__content">Kamikaze squirrels</span>
+                            </div>
+                            <div class="block-image block-image__3">
+                                <h4 class ="block-image__title">Bird</h4>
+                                <span class ="block-image__content">Birds Fight club</span>
+                            </div>
+                        </div>
+                    <img src="./img/2-C-Vector.png" alt="cliker-left" class="cliker">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class ="get-notified">
+        <div class="wrapper-GN">
+            <h3 class = "gn-title">Get notified about new amazing articles</h3>
+            <div class="gn-input-block">
+                <input type="text" class="gn-input-block__inp" value="Email">
+                <input type="submit" class="gn-input-block__btn" value="Send">
+            </div>
+        </div>
+    </section>
+    <footer class = "footer">
+        <div class="footer-wrapper">
+            <div class="footer-logo">
+                <a href="#" class="footer-logo__linc">
+                    <img src="./img/Frame.svg" alt="logo" class="footer-logo__linc__img">
+                    <span class="footer-logo__linc__txt">
+                        WILDLIFE
+                    </span>
+                </a>
+            </div>
+            <ul class="footer-nav">
+                <li>
+                    <a class = "footer-nav__linc">Articles</a>
+                </li>
+                <li>
+                    <a class = "footer-nav__linc">About us</a>
+                </li>
+                <li>
+                    <a class = "footer-nav__linc">Learn more</a>
+                </li>
+            </ul>
+            <div class="footer-soctial">
+                <a class = "footer-soctial__linc">
+                    <img src="./img/1-F-Frame.png" alt="FB" class="footer-soctial__linc__img">
+                </a>
+                <a class = "footer-soctial__linc">
+                    <img src="./img/2-F-Frame.png" alt="Instagramm" class="footer-soctial__linc__img">
+                </a>
+                <a class = "footer-soctial__linc">
+                    <img src="./img/3-f-Frame.png" alt="P" class="footer-soctial__linc__img">
+                </a>
+                <a class = "footer-soctial__linc">
+                    <img src="./img/4-f-Frame.png" alt="Teleg" class="footer-soctial__linc__img">
+                </a>
+            </div>    
+        </div>
+    </footer>
 </body>
 </html>
